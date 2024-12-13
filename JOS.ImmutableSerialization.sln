@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{B074BAD0-CCE2-45EC-A203-BABE2CD66C0C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA123B15-3DB6-4841-9710-1791F4DF5E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.ImmutableSerialization", "src\JOS.ImmutableSerialization\JOS.ImmutableSerialization.csproj", "{4384808C-0583-4EC0-804B-B8611C83CC66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F8ADB220-FFFD-4A37-A6B1-4138FEB23D68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.ImmutableSerializationTests", "test\JOS.ImmutableSerializationTests\JOS.ImmutableSerializationTests.csproj", "{76254238-3587-41FC-BF40-C38551EE28D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4384808C-0583-4EC0-804B-B8611C83CC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4384808C-0583-4EC0-804B-B8611C83CC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4384808C-0583-4EC0-804B-B8611C83CC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4384808C-0583-4EC0-804B-B8611C83CC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76254238-3587-41FC-BF40-C38551EE28D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76254238-3587-41FC-BF40-C38551EE28D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76254238-3587-41FC-BF40-C38551EE28D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76254238-3587-41FC-BF40-C38551EE28D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4384808C-0583-4EC0-804B-B8611C83CC66} = {BA123B15-3DB6-4841-9710-1791F4DF5E3C}
+		{76254238-3587-41FC-BF40-C38551EE28D3} = {F8ADB220-FFFD-4A37-A6B1-4138FEB23D68}
+	EndGlobalSection
+EndGlobal
